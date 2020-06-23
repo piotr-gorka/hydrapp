@@ -4,15 +4,14 @@ import "../scss/main.scss";
 import { registerSW } from "./pwa.js";
 registerSW();
 
-/* place your code below */
-
-console.log("HELLO 🚀");
 
 const add = document.querySelector(".add--js");
 const remove = document.querySelector(".remove--js");
 let counter = document.querySelector(".counter--js");
 
 let number = 0;
+
+const key = new Date().toISOString().slice(0, 10)
 
 add.addEventListener("click", () => {
   number++;
