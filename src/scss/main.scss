@@ -12,9 +12,9 @@ body {
   justify-content: center;
   min-height: 100vh;
 }
-.interface{
- display: flex;
- flex-direction: column;
+.interface {
+  display: flex;
+  flex-direction: column;
 }
 .heading {
   font-family: "Roboto", sans-serif;
@@ -62,14 +62,13 @@ body {
   align-self: center;
   text-align: center;
   margin-bottom: 34px;
-  &__paragraph{
+  &__paragraph {
     justify-content: center;
     align-self: center;
   }
 }
 
-
-.delete {
+.remove {
   font-family: "Roboto", sans-serif;
   width: 184px;
   height: 23px;
@@ -87,7 +86,7 @@ body {
 
   color: #f5e5e7;
   background: $hydra;
-  &__paragraph{
+  &__paragraph {
     justify-content: center;
     align-self: center;
   }
