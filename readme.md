@@ -2,7 +2,7 @@
 
 # Hydraap
 
-Simple web application which allows you to tracks your daily hydration
+Simple web application which allows you to track your daily hydration.
 
 
 ## Available scripts
