@@ -2,12 +2,42 @@
 
 @import "_variables";
 @import "modules/hello.scss";
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
 
 body {
-  background: $wtf;
+  background: $hydra;
   color: #fff;
   display: flex;
   align-items: center;
   justify-content: center;
   min-height: 100vh;
+}
+.heading {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 55px;
+  line-height: 64px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 68px;
+}
+.glass {
+  background-image: url("../assets/img/water-glass.svg");
+  width: 280px;
+  height: 280px;
+  display: flex;
+  justify-content: center;;
+  &__counter {
+    align-self: flex-end;
+    
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 80px;
+    line-height: 131px;
+    color: #000000;
+  }
+ 
 }
