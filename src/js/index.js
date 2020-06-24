@@ -25,8 +25,8 @@ counter.innerHTML = result;
  let number = result;
 
 
-//console.log(result);
-//console.log(entry);
+console.log(result);
+console.log(entry);
 
 
 add.addEventListener("click", () => {
